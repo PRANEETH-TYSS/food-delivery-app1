@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Amita");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto&family=Shizuru&display=swap");
+#navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+#navbar div:nth-child(1) {
+  justify-content: flex-start;
+}
+#navbar div:last-child {
+  justify-content: flex-end;
+  padding: 0 30px;
+}
+#food {
+  font-family: "Shizuru";
+  font-size: 20px;
+  color: red;
+}
+#city {
+  font-size: 40px;
+  font-family: "Oleo Script";
+}
+.dropDown {
+  position: absolute;
+  background-color: #111;
+  color: white;
+  z-index: 11;
+  left: 800px;
+  border-radius: 5px;
+  top: 80px;
+}
+#table {
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  color: #111;
+  align-items: center;
+
+  border: 1px solid black;
+}
+#table tr td {
+  padding: 20px;
+}
+#table tr:nth-child(1) td {
+  padding: 20px;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.signup {
+  border-radius: 20px;
+  background-color: rgb(209, 196, 196);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+.login {
+  border-radius: 20px;
+  background-color: rgb(209, 196, 196);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+.cart {
+  border-radius: 20px;
+  color: black;
+  border: none;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  margin-top: 10px;
+}
+.cart i:nth-child(1) {
+  position: relative;
+  top: 10px;
+  color: white;
+  left: 40px;
+}
+#border {
+  border-bottom: 1px solid black;
+}
+.loaction a {
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}

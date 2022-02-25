@@ -1,0 +1,27 @@
+#card {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-around;
+}
+#deals {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-basis: 300px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.button1 {
+  background-color: green;
+}
+#deals div img {
+  width: 18rem;
+  height: 200px;
+}
+#button2 {
+  background-color: rgb(63, 63, 221);
+  border: none;
+}
+#button3 {
+  border: none;
+}

@@ -1,0 +1,52 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #efefef;
+}
+.container form div {
+  padding: 20px 0;
+}
+.navSection div > ul {
+  display: flex;
+}
+.navSection div ul li {
+  list-style: none;
+  padding: 0 30px;
+  font-weight: bold;
+}
+.navSection div:nth-child(2) > ul > li:nth-child(1) {
+  color: #fc2e71;
+}
+.navSection > div > img {
+  width: 125.3px;
+  height: 40.94px;
+}
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 200px;
+}
+.dropdown ul {
+  list-style: none;
+  position: relative;
+  top: -22px;
+  left: 1150px;
+  background: #fff;
+  width: 100%;
+  z-index: 111111;
+}
+.dropdown ul li {
+  padding: 10px 0;
+}
+.dropdown ul li:hover {
+  color: rgb(155, 140, 140);
+}
+.navSection div ul a {
+  text-decoration: none;
+  padding: 0 30px;
+  font-weight: bold;
+  color: #111;
+}

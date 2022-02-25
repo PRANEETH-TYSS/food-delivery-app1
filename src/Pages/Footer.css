@@ -1,0 +1,19 @@
+#Footer {
+  background-color: #111;
+  color: #efefef;
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-around;
+  line-height: 50px;
+}
+#Footer div ul {
+  list-style: none;
+}
+#Footer div ul li {
+  text-decoration: none;
+}
+#Footer div ul li:nth-child(1) {
+  color: rgb(128, 120, 120);
+  text-transform: uppercase;
+  font-weight: bold;
+}
